@@ -13,19 +13,21 @@
     --background: 0 0% 2%;     /* #050505 - Obsidian Black */
     --foreground: 40 24% 93%;  /* #F3EFE8 - Bone / Soft Ivory */
     
-    --card: 0 0% 4%;           /* #0A0A0A - Deep Black */
+    --card: 0 0% 3%;           /* Slightly lighter for carved depth */
     --card-foreground: 40 24% 93%;
     
+    --card-border: 0 0% 6%;    /* Subtle highlight for carved edge */
+
     --popover: 0 0% 4%;
     --popover-foreground: 40 24% 93%;
     
     --primary: 274 57% 27%;    /* #4B1E6D - Storm Violet */
     --primary-foreground: 40 24% 93%;
     
-    --secondary: 0 0% 8%;      /* #151515 - Charcoal Shadow */
+    --secondary: 0 0% 5%;      /* #0D0D0D - Polished Obsidian */
     --secondary-foreground: 40 24% 93%;
     
-    --muted: 0 0% 12%;         
+    --muted: 0 0% 8%;         
     --muted-foreground: 0 0% 60%;
     
     --accent: 41 63% 44%;      /* #B68A2A - Ember Gold */
@@ -34,8 +36,8 @@
     --destructive: 0 84% 60%;
     --destructive-foreground: 40 24% 93%;
 
-    --border: 0 0% 12%;
-    --input: 0 0% 12%;
+    --border: 0 0% 6%;         /* Carved stone border */
+    --input: 0 0% 6%;
     --ring: 274 57% 40%;       /* Electric Violet Glow for focus */
     
     --radius: 0rem;            /* Sharp edges for fashion aesthetic */
@@ -49,6 +51,11 @@
   body {
     @apply bg-background text-foreground antialiased selection:bg-primary/50 selection:text-white;
     font-family: var(--font-sans);
+    background-image: 
+      radial-gradient(circle at 50% -20%, hsl(var(--primary) / 0.15), transparent 70%),
+      linear-gradient(to bottom, transparent, hsl(var(--background))),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.02'/%3E%3C/svg%3E");
+    background-attachment: fixed;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-serif);
@@ -64,6 +71,7 @@
   }
   ::-webkit-scrollbar-thumb {
     background: hsl(var(--border));
+    border-radius: 10px;
   }
   ::-webkit-scrollbar-thumb:hover {
     background: hsl(var(--muted-foreground));
@@ -80,7 +88,32 @@
   .hover-glow:hover {
     box-shadow: 0 0 30px rgba(122, 60, 255, 0.15);
   }
-  .bg-noise {
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+  .carved-stone {
+    background: linear-gradient(145deg, hsl(var(--card)), hsl(var(--background)));
+    box-shadow: 
+      inset 1px 1px 0px 0px hsl(var(--border) / 0.3),
+      inset -1px -1px 0px 0px black;
+    border: 1px solid hsl(var(--border) / 0.1);
+  }
+  .polished-obsidian {
+    background: linear-gradient(145deg, #0a0a0a, #050505);
+    position: relative;
+    overflow: hidden;
+  }
+  .polished-obsidian::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+      45deg,
+      transparent 45%,
+      rgba(255, 255, 255, 0.03) 50%,
+      transparent 55%
+    );
+    transform: rotate(-45deg);
+    pointer-events: none;
   }
 }

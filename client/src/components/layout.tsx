@@ -33,7 +33,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   ];
 
   return (
-    <div className="min-h-screen bg-background text-foreground flex flex-col relative bg-noise">
+    <div className="min-h-screen bg-background text-foreground flex flex-col relative polished-obsidian">
       {/* Navbar */}
       <header
         className={`fixed top-0 w-full z-50 transition-all duration-500 ${

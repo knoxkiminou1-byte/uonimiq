@@ -154,7 +154,7 @@ export default function Home() {
 
             {/* 3. Featured Drop */}
             {featuredProduct && (
-              <section className="py-24 px-6 bg-card border-y border-white/5 relative">
+              <section className="py-24 px-6 bg-card border-y border-white/5 relative carved-stone">
                  <div className="absolute left-0 bottom-0 w-[500px] h-[500px] bg-accent/5 rounded-full blur-[120px] pointer-events-none -translate-x-1/2 translate-y-1/2" />
                 
                 <div className="max-w-7xl mx-auto">
