@@ -4,6 +4,7 @@ import { ShoppingBag, Menu, X, Search } from "lucide-react";
 import { useCart } from "@/store/use-cart";
 import { motion, AnimatePresence } from "framer-motion";
 import { CartDrawer } from "./cart-drawer";
+import { routes } from "@/lib/routes";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,10 +27,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
   }, []);
 
   const navLinks = [
-    { label: "Shop", href: "/shop" },
-    { label: "Collections", href: "/collections" },
-    { label: "Lookbook", href: "/lookbook" },
-    { label: "About", href: "/about" },
+    { label: "Shop", href: routes.shop() },
+    { label: "Collections", href: routes.collections() },
+    { label: "Lookbook", href: routes.lookbook() },
+    { label: "About", href: routes.about() },
   ];
 
   return (
@@ -66,7 +67,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
           {/* Logo */}
           <Link 
-            href="/" 
+            href={routes.home()} 
             className="font-serif text-2xl tracking-[0.3em] font-medium hover:text-glow-purple transition-all duration-500 absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0"
           >
             UONIMIQ
@@ -158,9 +159,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div>
             <h4 className="text-sm tracking-widest uppercase mb-6 text-muted-foreground">Explore</h4>
             <ul className="space-y-4 text-sm">
-              <li><Link href="/shop" className="hover:text-primary transition-colors">Shop All</Link></li>
-              <li><Link href="/collections" className="hover:text-primary transition-colors">Collections</Link></li>
-              <li><Link href="/lookbook" className="hover:text-primary transition-colors">Lookbook</Link></li>
+              <li><Link href={routes.shop()} className="hover:text-primary transition-colors">Shop All</Link></li>
+              <li><Link href={routes.collections()} className="hover:text-primary transition-colors">Collections</Link></li>
+              <li><Link href={routes.lookbook()} className="hover:text-primary transition-colors">Lookbook</Link></li>
             </ul>
           </div>
           <div>

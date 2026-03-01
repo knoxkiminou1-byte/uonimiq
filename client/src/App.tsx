@@ -21,11 +21,15 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/shop" component={Shop} />
+        <Route path="/pages/shop" component={Shop} />
         <Route path="/product/:slug" component={ProductDetail} />
+        <Route path="/products/:slug" component={ProductDetail} />
         <Route path="/collections" component={Collections} />
         <Route path="/collections/:slug" component={CollectionDetail} />
         <Route path="/lookbook" component={Lookbook} />
+        <Route path="/pages/lookbook" component={Lookbook} />
         <Route path="/about" component={About} />
+        <Route path="/pages/about" component={About} />
         
         {/* Fallback to 404 */}
         <Route component={NotFound} />

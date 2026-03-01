@@ -1,0 +1,32 @@
+<script>
+  window.__UONIMIQ_SHOPIFY__ = true;
+  window.__UONIMIQ_ASSETS__ = {
+    heroVideo: "{{ 'hero.mp4' | asset_url }}"
+  };
+  window.__UONIMIQ_DATA__ = window.__UONIMIQ_DATA__ || {};
+</script>
+
+{% if template.name == 'product' %}
+<script>
+  window.__UONIMIQ_DATA__.product = {{ product | json }};
+</script>
+{% endif %}
+
+{% if template.name == 'collection' %}
+<script>
+  window.__UONIMIQ_DATA__.collection = {{ collection | json }};
+  window.__UONIMIQ_DATA__.products = {{ collection.products | json }};
+</script>
+{% endif %}
+
+{% if template.name == 'list-collections' %}
+<script>
+  window.__UONIMIQ_DATA__.collections = {{ collections | json }};
+</script>
+{% endif %}
+
+{% if collections.all %}
+<script>
+  window.__UONIMIQ_DATA__.products = {{ collections.all.products | json }};
+</script>
+{% endif %}

@@ -3,12 +3,15 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'wouter';
 import { useProducts } from '@/hooks/use-products';
 import { ProductCard } from '@/components/product-card';
+import { getHeroVideoUrl } from '@/lib/shopify';
+import { routes } from '@/lib/routes';
 
 export default function Home() {
   const [hasEntered, setHasEntered] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
   const { data: products, isLoading } = useProducts();
+  const heroVideoSrc = getHeroVideoUrl();
   
   const handleEnter = () => {
     setIsPlaying(true);
@@ -46,7 +49,7 @@ export default function Home() {
               playsInline 
               className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${isPlaying ? 'opacity-100' : 'opacity-0'}`}
             >
-              <source src="/videos/hero.mp4" type="video/mp4" />
+              <source src={heroVideoSrc} type="video/mp4" />
             </video>
 
             <AnimatePresence>
@@ -108,7 +111,7 @@ export default function Home() {
                   className="absolute inset-0 w-full h-full object-cover opacity-40"
                   poster="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1920&q=80"
                 >
-                  <source src="/videos/hero.mp4" type="video/mp4" />
+                  <source src={heroVideoSrc} type="video/mp4" />
                 </video>
                 <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
               </div>
@@ -121,7 +124,7 @@ export default function Home() {
                   Built in shadow. Worn with power.
                 </p>
                 <Link 
-                  href="/shop" 
+                  href={routes.shop()} 
                   className="inline-block px-10 py-4 bg-white text-black uppercase tracking-widest text-xs hover:bg-primary hover:text-white transition-all duration-500"
                 >
                   Explore Collection
@@ -193,7 +196,7 @@ export default function Home() {
                         ${parseFloat(featuredProduct.price as unknown as string).toFixed(2)}
                       </p>
                       <Link 
-                        href={`/product/${featuredProduct.slug}`}
+                        href={routes.product(featuredProduct.slug)}
                         className="px-8 py-4 border border-border uppercase tracking-widest text-sm hover:bg-white hover:text-black transition-all duration-300"
                       >
                         Examine Piece
@@ -212,7 +215,7 @@ export default function Home() {
                     <h2 className="font-serif text-3xl md:text-4xl mb-2">Signature Relics</h2>
                     <p className="text-sm tracking-widest uppercase text-muted-foreground">The foundation of the house</p>
                   </div>
-                  <Link href="/shop" className="hidden md:block text-sm tracking-widest uppercase border-b border-transparent hover:border-primary text-primary transition-all pb-1">
+                  <Link href={routes.shop()} className="hidden md:block text-sm tracking-widest uppercase border-b border-transparent hover:border-primary text-primary transition-all pb-1">
                     View All
                   </Link>
                 </div>

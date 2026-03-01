@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'wouter';
 import { useCollections } from '@/hooks/use-collections';
 import { motion } from 'framer-motion';
+import { routes } from '@/lib/routes';
 
 export default function Collections() {
   const { data: collections, isLoading } = useCollections();
@@ -32,7 +33,7 @@ export default function Collections() {
               transition={{ duration: 0.8 }}
               className="group"
             >
-              <Link href={`/collections/${collection.slug}`} className="block relative aspect-[4/5] md:aspect-[21/9] overflow-hidden">
+              <Link href={routes.collection(collection.slug)} className="block relative aspect-[4/5] md:aspect-[21/9] overflow-hidden">
                 <img 
                   src={collection.image || "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&q=80"} 
                   alt={collection.title}

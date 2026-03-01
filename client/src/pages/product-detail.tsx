@@ -6,8 +6,9 @@ import { motion } from 'framer-motion';
 import { ProductCard } from '@/components/product-card';
 
 export default function ProductDetail() {
-  const [, params] = useRoute('/product/:slug');
-  const slug = params?.slug || '';
+  const [, paramsLegacy] = useRoute('/product/:slug');
+  const [, paramsShopify] = useRoute('/products/:slug');
+  const slug = paramsLegacy?.slug || paramsShopify?.slug || '';
   
   const { data: product, isLoading } = useProduct(slug);
   const { data: allProducts } = useProducts();

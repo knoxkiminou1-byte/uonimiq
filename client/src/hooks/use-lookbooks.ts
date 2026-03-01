@@ -1,5 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { api } from "@shared/routes";
+import { getUonimiqData } from "@/lib/shopify-data";
+import { isShopify } from "@/lib/shopify";
 import { z } from "zod";
 
 function parseWithLogging<T>(schema: z.ZodSchema<T>, data: unknown, label: string): T {
@@ -15,6 +17,9 @@ export function useLookbooks() {
   return useQuery({
     queryKey: [api.lookbooks.list.path],
     queryFn: async () => {
+      if (isShopify()) {
+        return getUonimiqData().lookbooks;
+      }
       const res = await fetch(api.lookbooks.list.path, { credentials: "include" });
       if (!res.ok) throw new Error("Failed to fetch lookbooks");
       const data = await res.json();

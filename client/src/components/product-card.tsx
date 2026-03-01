@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'wouter';
 import { ProductResponse } from '@shared/schema';
+import { routes } from "@/lib/routes";
 
 interface ProductCardProps {
   product: ProductResponse;
@@ -12,7 +13,7 @@ export function ProductCard({ product }: ProductCardProps) {
   const hoverImage = product.images[1] || mainImage;
 
   return (
-    <Link href={`/product/${product.slug}`} className="group block">
+    <Link href={routes.product(product.slug)} className="group block">
       <div className="relative aspect-[3/4] overflow-hidden bg-secondary/30 mb-4">
         {/* Badges */}
         <div className="absolute top-4 left-4 z-10 flex flex-col gap-2">
