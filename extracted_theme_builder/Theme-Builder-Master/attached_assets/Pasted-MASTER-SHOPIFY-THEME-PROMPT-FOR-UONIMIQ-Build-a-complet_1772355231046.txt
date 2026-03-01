@@ -1,0 +1,1331 @@
+MASTER SHOPIFY THEME PROMPT FOR UONIMIQ
+
+Build a complete, fully custom Shopify Online Store 2.0 fashion e-commerce website for the brand UONIMIQ.
+
+Use the attached intro video as the primary visual and emotional reference for the entire website. The site should feel like that intro video was expanded into a full luxury fashion house storefront. The intro video is not just a hero reference, it is the brand bible for the whole experience.
+
+If direct video analysis is limited, lock the visual identity to this exact style system:
+
+a crowned obsidian lion as the central symbol of power
+
+faceted black stone / carved onyx geometry
+
+glowing golden eyes
+
+a violet storm sky
+
+lightning, thunder, fire altars, embers, and smoke
+
+dark ceremonial symmetry
+
+high-fashion royalty
+
+black, purple, and gold as the sacred palette
+
+a dramatic, elevated, mythic, premium atmosphere
+
+the feeling of a luxury kingdom, not a normal store
+
+the wordmark appearing like cursive light in the sky
+
+This website must feel like a master-built digital fashion temple. It must not feel like a generic Shopify template, a merch store, a starter brand, or a simple streetwear page.
+
+This is a luxury-meets-accessible fashion house with cinematic energy, dark elegance, symbolic power, and designer-grade polish.
+
+The site should feel like:
+a royal storm,
+a private fashion house,
+an obsidian ritual,
+a cinematic boutique,
+a high-concept brand world that still sells cleanly.
+
+The emotional effect on the visitor should be:
+“This looks legendary.”
+“This feels expensive.”
+“This feels like a fashion house with its own mythology.”
+“I want to buy before I even check the price.”
+
+The site must be built for Shopify Online Store 2.0 using a modular, scalable theme structure. It should use reusable sections, configurable content areas, premium merchandising logic, and a structure that is easy to manage in Shopify once built. The final result should be a real, usable storefront, not just a mood board.
+
+The site should be designed for:
+
+premium fashion e-commerce
+
+mobile-first performance
+
+high-end brand storytelling
+
+strong conversion
+
+repeatable product merchandising
+
+collection growth
+
+future capsule drops
+
+future limited releases
+
+future campaigns and collaborations
+
+The brand name is:
+UONIMIQ
+
+The tone of voice is:
+
+regal
+
+sharp
+
+editorial
+
+modern
+
+composed
+
+expensive
+
+poetic in small doses
+
+never childish
+
+never salesy
+
+never generic streetwear hype
+
+never cluttered
+
+never loud in a cheap way
+
+No cheesy fashion copy.
+No corny luxury clichés.
+No startup-sounding language.
+No bargain-bin phrasing.
+No fake exclusivity language.
+Everything should sound intentional, high-taste, and controlled.
+
+The visual system must be built around this palette:
+
+Obsidian Black: #050505
+
+Deep Black: #0A0A0A
+
+Charcoal Shadow: #151515
+
+Storm Violet: #4B1E6D
+
+Electric Violet: #7A3CFF
+
+Ember Gold: #B68A2A
+
+Fire Glow: #D89A2B
+
+Bone / Soft Ivory: #F3EFE8
+
+Color behavior:
+The site should live mostly in black, obsidian, and deep shadow tones.
+Purple should be used as ambient glow, lightning accents, hover energy, borders, and motion light.
+Gold should be used as prestige detail, not as a dominant fill.
+Fire tones should be used sparingly in key reveals, badges, or active states.
+Ivory should be used for readable text and contrast.
+
+Typography direction:
+Use a luxury editorial font system.
+Use one strong fashion-forward serif or sculptural display font for large hero headings and ceremonial statements.
+Use one clean modern sans serif for UI, navigation, filters, product info, and supporting text.
+Typography should feel:
+
+expensive
+
+intentional
+
+cinematic
+
+fashion-led
+
+sharp
+
+disciplined
+
+No playful type.
+No bubbly fonts.
+No childish shapes.
+No overdecorated script for body text.
+Only use script styling for rare wordmark moments or ceremonial text treatments.
+
+The full site must feel visually tied to the intro video.
+
+Translate these elements from the intro video into web design language:
+
+Crowned Lion
+This becomes the symbol of brand dominance and house identity.
+Use this through:
+
+hero art direction
+
+crest/logo framing
+
+symbolic section dividers
+
+subtle icon motifs
+
+collection intros
+
+possible watermark overlays
+
+premium loading states
+Do not overuse it. It should feel legendary and controlled.
+
+Purple Storm / Lightning
+Translate this into:
+
+animated glow gradients
+
+slow cloud textures
+
+subtle page lighting shifts
+
+hover flashes
+
+section reveal transitions
+
+line accents
+
+featured CTA energy
+
+background aura
+Use it tastefully. This is premium storm energy, not sci-fi overload.
+
+Bonfires / Ember Glow
+Translate this into:
+
+warm highlight accents
+
+subtle hover flares
+
+ambient edge-light
+
+active button energy
+
+elegant burnish in featured sections
+
+limited capsule badges
+Do not make the site orange-heavy. Ember is a secondary accent.
+
+Ceremonial Symmetry / Procession
+Translate this into:
+
+strong centered hero sections
+
+balanced layouts
+
+formal collection intros
+
+high-fashion grid discipline
+
+clean spacing
+
+symmetrical architecture in key moments
+Break symmetry only in editorial sections for controlled drama.
+
+Cursive Wordmark in the Sky
+Translate this into:
+
+special brand reveal moments
+
+hero overlays
+
+loading intro
+
+lookbook headers
+
+ultra-premium wordmark treatments
+Do not make the whole site script-heavy. Use it as a signature flourish.
+
+The website must include these top-level pages:
+
+Home
+
+Shop
+
+Collections
+
+Individual Collection Template
+
+Product Detail Page
+
+Lookbook / Campaign
+
+About the House
+
+Journal / Drops
+
+FAQ / Client Services
+
+Contact / Concierge
+
+Search
+
+Cart / Drawer Cart
+
+404 page
+
+Optional account styling
+
+Navigation should include:
+
+Home
+
+Shop
+
+Collections
+
+Lookbook
+
+About
+
+Journal
+
+Contact
+
+Search icon
+
+Cart icon
+
+Optional account icon
+
+Header behavior:
+
+sticky header on scroll
+
+premium transparent-to-solid transition over hero areas
+
+elegant hover states
+
+mobile full-screen overlay menu
+
+strong brand presence centered or left-anchored with deliberate balance
+
+announcement bar support
+
+optional “Enter the House” or “New Drop” promo strip
+
+This should not feel like a normal store header. It should feel like the threshold into a kingdom.
+
+HOMEPAGE
+
+The homepage should feel like entering the world from the intro video.
+
+The opening section should act like a digital version of the “enter screen” standard:
+dark, cinematic, controlled, high impact, with immediate emotional identity.
+
+Homepage flow should be:
+
+1. Cinematic Hero / Entrance
+A full-screen or near full-screen hero section.
+It should feel like the visitor is entering the house of UONIMIQ.
+
+Hero direction:
+
+use the uploaded intro video aesthetic as the base
+
+dark obsidian environment
+
+subtle storm atmosphere
+
+purple ambient lighting
+
+ceremonial central composition
+
+premium motion layers
+
+large fashion-house headline
+
+short luxurious support line
+
+one strong primary CTA
+
+one secondary CTA
+
+Hero copy tone should feel like:
+
+mythic
+
+concise
+
+expensive
+
+commanding
+
+elegant
+
+Examples of tone only:
+
+Built in shadow. Worn with power.
+
+The house of storm and silhouette.
+
+Cut from darkness. Lit by fire.
+Do not rely on these exact lines. Write original copy in this spirit.
+
+Hero interactions:
+
+slow reveal
+
+subtle parallax
+
+ambient glow shift
+
+premium motion on CTA hover
+
+possible slow cloud / ember animation
+
+optional cinematic poster-frame style if video autoplay is used
+
+no cheesy autoplay overload
+
+hero must stay fast and readable
+
+2. Featured Drop
+Show the newest or most important release with strong visual dominance.
+Use large editorial product cards, not tiny generic tiles.
+
+This section should feel like:
+
+the house presenting a decree
+
+a drop announcement
+
+a premium reveal
+
+Each featured item should have:
+
+bold media
+
+premium spacing
+
+sharp title
+
+one-line elevated descriptor
+
+clear price
+
+refined CTA
+
+3. Collection Gateways
+Large visual portals to the core product categories:
+
+Hoodies
+
+Tees
+
+Shirts
+
+Shorts
+
+Dresses
+
+Outerwear
+
+Essentials
+
+Limited / Capsules
+
+These must feel like entry doors, not plain category boxes.
+Each tile should look like an editorial campaign panel with:
+
+motion on hover
+
+image shift or glow response
+
+strong typography
+
+atmospheric overlays
+
+premium transition
+
+4. Brand Manifesto
+A short house statement.
+This should explain the soul of UONIMIQ in a compact, powerful way.
+
+It should communicate:
+
+power
+
+precision
+
+design discipline
+
+luxury access
+
+artistic authority
+
+emotional edge
+
+Do not make this a long founder essay.
+Make it feel like a decree from a fashion house.
+
+5. Signature Pieces / Best Sellers
+This section should show the strongest core silhouettes.
+It should feel like the backbone of the brand.
+
+Use:
+
+strong product photography
+
+clean spacing
+
+hover image swap
+
+color/variant awareness
+
+premium card structure
+
+optional quick add if elegantly done
+
+6. Editorial Strip / Campaign Story
+This is where the site starts to feel like a fashion publication.
+Use asymmetrical layout here for controlled tension.
+Mix:
+
+large imagery
+
+layered text
+
+subtle movement
+
+a short collection statement
+
+a CTA into the lookbook or campaign page
+
+7. Lookbook Preview
+This must feel like a luxury digital campaign preview.
+Use:
+
+cinematic imagery
+
+full-bleed or near full-bleed panels
+
+moody crops
+
+premium captions
+
+shoppable editorial tie-ins
+
+The goal is to make the visitor feel like the brand has a real world behind it.
+
+8. House Access / Email Capture
+Make the email signup feel exclusive and elevated.
+Do not use generic discount copy.
+Do not lead with a coupon.
+
+Use language around:
+
+early access
+
+drop alerts
+
+private releases
+
+house notes
+
+first view of capsules
+
+campaign previews
+
+This section should feel like:
+a private invitation,
+not a pop-up begging for emails.
+
+9. Footer
+The footer should feel calm, dark, clean, and complete.
+Include:
+
+navigation
+
+customer care
+
+policies
+
+social links
+
+newsletter or house note
+
+minimal legal text
+
+premium visual finish
+
+SHOP PAGE / SHOP ALL
+
+The Shop page must feel elite but extremely usable.
+
+This is where current fashion-commerce best practices matter most.
+Do not make it hard to browse.
+Do not sacrifice utility for aesthetics.
+
+The Shop All page must include:
+
+clean filter system
+
+strong sorting controls
+
+product grouping that feels intuitive
+
+elegant mobile filter drawer
+
+clean product grid with breathing room
+
+premium hover states
+
+fast scanability
+
+excellent image handling
+
+easy variant visibility
+
+The product listing experience should use modern premium apparel patterns:
+
+show color variants or swatches cleanly
+
+combine product variants intelligently instead of cluttering the grid
+
+use strong thumbnails with consistent ratio
+
+support hover image swap
+
+support subtle image zoom on hover
+
+use clear size/color awareness where useful
+
+keep product names short and elevated
+
+allow quick add only if it feels smooth and premium
+
+keep spacing and card edges intentional
+
+use badges like New, Signature, Limited, Capsule sparingly and elegantly
+
+The product grid should feel like:
+
+fashion editorial meets conversion clarity
+
+a boutique floor with order and style
+
+not a crowded marketplace
+
+COLLECTIONS OVERVIEW
+
+Build a Collections page that feels like a gallery of houses within the house.
+
+Each collection card should include:
+
+title
+
+visual key art
+
+one-line descriptor
+
+premium CTA
+
+hover motion
+
+strong typography
+
+Potential naming style:
+
+House Essentials
+
+Storm Line
+
+Obsidian Core
+
+Violet Division
+
+Ember Cut
+
+Crown Series
+
+Night Uniform
+
+Limited Rite
+
+Do not hard-code these unless useful.
+The system should support elevated thematic naming.
+
+INDIVIDUAL COLLECTION PAGES
+
+Each collection page should feel like a campaign landing page plus a clean shopping page.
+
+Required structure:
+
+collection hero
+
+collection title
+
+short editorial statement
+
+optional visual separator
+
+product grid
+
+filtering
+
+sorting
+
+optional campaign block or collection note
+
+optional featured item
+
+optional collection-specific lookbook tie-in
+
+Some collections should feel more minimal and essential.
+Others should feel dramatic and ceremonial.
+The theme must support both.
+
+PRODUCT DETAIL PAGE
+
+This page must be exceptional.
+
+The product page should make every item feel authored, not generic.
+
+Required product page features:
+
+large immersive image gallery
+
+beautiful media scaling
+
+swipe-ready mobile media
+
+zoom behavior
+
+alternate images
+
+optional short product video
+
+optional product detail motion
+
+title
+
+short subtitle / descriptor
+
+price
+
+variants
+
+size selector
+
+quantity
+
+add to cart
+
+buy now / accelerated checkout styling if used
+
+stock clarity
+
+shipping note
+
+returns note
+
+care and material details
+
+related products
+
+styled with / complete the look
+
+The product page should include premium storytelling modules:
+
+The Cut
+Describe the silhouette, proportion, fit, and shape.
+
+The Feel
+Describe material, weight, hand-feel, and wearing experience.
+
+The Intent
+Describe why the piece exists in the collection and what it represents.
+
+This must feel like fashion-house copy, not bland catalog copy.
+
+Add strong apparel-specific UX:
+
+clear sizing
+
+fit notes
+
+variant clarity
+
+high-visibility size selection
+
+optional fit guide
+
+elegant accordions
+
+no buried essential info
+
+Use current rich merchandising patterns:
+
+media-first layout
+
+sticky buy panel on desktop if balanced
+
+sticky add-to-cart on mobile if it remains elegant
+
+image thumbnails or stacked media
+
+optional zoom lens or lightbox
+
+optional short runway-like loop or detail clip
+
+optional cross-sell with matching pieces
+
+LOOKBOOK / CAMPAIGN PAGE
+
+This page is critical.
+
+It must feel like a digital fashion film translated into a web page.
+
+The lookbook should:
+
+feel cinematic
+
+support full-bleed visual storytelling
+
+use strong crops and elegant negative space
+
+allow text overlays
+
+allow shoppable hot zones or linked looks if useful
+
+feel like a private campaign archive
+
+feel editorial, not blog-like
+
+support both product-linked and atmosphere-only sections
+
+This page should be one of the brand’s strongest trust and desire builders.
+
+The lookbook should help the customer think:
+“This is a real fashion world.”
+
+ABOUT THE HOUSE
+
+This page explains the philosophy of UONIMIQ.
+
+It should feel:
+
+mythic
+
+controlled
+
+elegant
+
+grounded
+
+premium
+
+emotionally exact
+
+It should explain:
+
+the house identity
+
+the design philosophy
+
+the relationship between darkness and luxury
+
+the symbolism of storm, fire, and crown
+
+the idea of accessible excellence
+
+the idea that the pieces are designed objects, not throwaway fashion
+
+Avoid corporate about-page clichés.
+Avoid long boring history blocks.
+This should read like the declaration of a house.
+
+JOURNAL / DROPS
+
+Create a premium editorial journal structure that can support:
+
+release notes
+
+campaign writeups
+
+drop stories
+
+design notes
+
+collection essays
+
+behind-the-piece storytelling
+
+It should feel like a fashion bulletin, not a generic blog.
+
+FAQ / CLIENT SERVICES
+
+Keep this page elegant, calm, and useful.
+Include:
+
+shipping
+
+returns
+
+sizing
+
+care
+
+limited release questions
+
+preorder questions if added later
+
+support timing
+
+contact path
+
+Use premium language:
+
+Client Services
+
+House Support
+
+Concierge
+
+Order Assistance
+
+CONTACT / CONCIERGE
+
+This page should feel elevated.
+Use:
+
+strong page intro
+
+elegant form styling
+
+refined spacing
+
+direct email option
+
+optional wholesale / press / collaboration routing
+
+clear response expectations
+
+premium microcopy
+
+This should feel like contacting a fashion house, not filling out a basic web form.
+
+CART + CHECKOUT-FACING EXPERIENCE
+
+The cart should feel premium and brand-aligned.
+Use a cart drawer and/or full cart page.
+
+Requirements:
+
+clean item list
+
+elegant quantity controls
+
+remove/edit behavior
+
+subtotal clarity
+
+shipping note
+
+smooth checkout CTA
+
+optional understated cross-sell
+
+no clutter
+
+no ugly defaults
+
+The cart drawer should slide in beautifully and feel like a polished extension of the site.
+
+SEARCH
+
+Use premium predictive search styling.
+Search results should include:
+
+products
+
+collections
+
+possibly editorial content
+
+strong thumbnail quality
+
+clean typography
+
+fast feedback
+
+Search should feel like a sharp tool, not an afterthought.
+
+MOBILE EXPERIENCE
+
+Mobile must feel just as luxurious as desktop.
+
+Do not reduce mobile to a stripped-down version.
+Instead:
+
+preserve drama
+
+preserve motion
+
+preserve hierarchy
+
+preserve the premium feel
+
+keep performance strong
+
+Mobile priorities:
+
+clean thumb-friendly navigation
+
+elegant overlay menu
+
+readable type
+
+strong image crops
+
+swipeable media
+
+easy filtering
+
+sticky buy action where useful
+
+calm spacing
+
+no cramped UI
+
+no tiny controls
+
+MOTION SYSTEM
+
+Motion should feel like the intro video translated into web behavior.
+
+Use:
+
+slow fades
+
+controlled rise transitions
+
+soft parallax
+
+ember drift where tasteful
+
+glow intensification on hover
+
+lightning-like line flashes in extremely subtle moments
+
+image mask reveals
+
+smooth card lift
+
+cinematic section transitions
+
+refined loading and reveal states
+
+The site should move like:
+
+a fashion trailer
+
+a ritual
+
+a premium sequence
+
+a controlled storm
+
+Do not use:
+
+cartoon bounce
+
+wild spins
+
+over-flashing
+
+gimmicky scroll tricks
+
+messy layered chaos
+
+anything that breaks the luxury illusion
+
+PRODUCT CARD BEHAVIOR
+
+Product cards must feel custom-built.
+
+They should include:
+
+strong image ratio
+
+hover image swap
+
+subtle zoom
+
+glow edge or ambient shadow
+
+elegant title
+
+price
+
+optional variant indicator
+
+optional quick add
+
+optional “shop look” tie-in in select sections
+
+The card should feel like a framed artifact.
+
+IMAGE / MEDIA DIRECTION
+
+All imagery must feel expensive.
+Use:
+
+dramatic contrast
+
+deep blacks
+
+rich shadows
+
+selective purple edge light
+
+gold-highlighted details
+
+clean fashion poses
+
+editorial composition
+
+large media moments
+
+full-bleed use where relevant
+
+strong closeups for fabric and detail
+
+Use media as movement, not just decoration.
+
+Whenever possible, the site should support:
+
+editorial stills
+
+close detail shots
+
+short motion clips
+
+lifestyle campaign media
+
+collection headers
+
+lookbook features
+
+LATEST FASHION-COMMERCE INTERACTION DIRECTION
+
+Bake in the strongest modern premium clothing-store behaviors:
+
+cinematic homepage entrance
+
+full-bleed hero with layered motion
+
+collection gateways that feel like portals
+
+product hover image swaps
+
+color/variant clarity inside cards
+
+image-led collection browsing
+
+campaign-led merchandising
+
+lookbook-driven shopping
+
+sticky purchase controls where helpful
+
+elegant quick add
+
+strong filter drawer on mobile
+
+refined predictive search
+
+minimal but premium cart drawer
+
+editorial sections breaking up the commerce flow
+
+capsule drop framing
+
+subtle movement tied to imagery and fabric mood
+
+page sections that open with intention, not just appear abruptly
+
+When images move, they should feel like they are revealing the garment, the texture, the world, and the energy around it.
+The motion should feel synchronized with the clothing and mood, not random.
+
+THEME STRUCTURE REQUIREMENTS
+
+Build this as a true Shopify theme-ready system.
+
+Use:
+
+JSON templates
+
+configurable sections
+
+reusable blocks
+
+scalable theme settings
+
+editable homepage sections
+
+editable collection and product templates
+
+reusable promotional sections
+
+configurable lookbook/campaign modules
+
+settings for palette, glow intensity, type scale, spacing, and motion toggles where appropriate
+
+Key sections to build:
+
+cinematic hero
+
+featured drop
+
+collection gateways
+
+manifesto block
+
+signature products rail
+
+editorial split panel
+
+lookbook preview
+
+email capture
+
+campaign quote block
+
+collection hero
+
+product storytelling modules
+
+related looks
+
+journal teaser
+
+concierge CTA
+
+premium footer
+
+Support app blocks cleanly where needed.
+Make the theme flexible, not fragile.
+
+COPY DIRECTION
+
+Write all placeholder copy to feel like a real luxury fashion label.
+
+Core language themes:
+
+shadow
+
+form
+
+silhouette
+
+cut
+
+light
+
+ritual
+
+crown
+
+storm
+
+ember
+
+house
+
+signature
+
+limited
+
+crafted
+
+presence
+
+intention
+
+authority
+
+Avoid:
+
+cheap
+
+bargain
+
+basic
+
+drip
+
+swag
+
+fire deals
+
+must-cop phrasing
+
+corny marketing language
+
+The customer should feel:
+This brand respects itself.
+This brand knows exactly what it is.
+This brand overdelivers visually.
+This brand feels rare.
+
+HERO-TO-CHECKOUT USER FLOW
+
+The user journey should feel like this:
+
+enter a cinematic world
+
+understand the brand instantly
+
+feel awe and curiosity
+
+see the drop
+
+browse cleanly
+
+get pulled into collections
+
+feel desire through product imagery and copy
+
+trust the structure
+
+add to cart with confidence
+
+move to checkout without friction
+
+Every stage should feel premium.
+No drop-off moments created by clutter, confusion, or cheap design.
+
+FINAL CREATIVE STANDARD
+
+This website should feel like:
+
+a luxury house born from a storm
+
+an obsidian kingdom
+
+a master-built Shopify flagship
+
+a cinematic fashion portal
+
+a premium brand whose visual system was designed by someone with discipline and taste
+
+It must feel custom from the first second.
+It must be beautiful.
+It must be memorable.
+It must sell.
+
+The entire site should feel like the intro video never ended, it simply opened into a store.
+
+Build UONIMIQ as a world, then let the products sell inside that world.
+
+If the tool you’re using can accept a second prompt, use this as the style lock add-on:
+
+STYLE LOCK ADD-ON
+Do not output a generic clothing website. Do not output a normal luxury template. The site must visibly inherit the uploaded intro video’s royal obsidian storm aesthetic: crowned lion symbolism, faceted black geometry, glowing gold accents, violet thunder atmosphere, ceremonial symmetry, ember warmth, and elegant sky-written branding. Every page must feel related to that opening sequence. The result should feel like a fashion house intro film expanded into a living storefront.

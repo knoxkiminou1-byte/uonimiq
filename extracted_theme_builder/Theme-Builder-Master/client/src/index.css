@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: 'DM Sans', sans-serif;
+    --font-display: 'Playfair Display', serif;
+
+    /* UONIMIQ Obsidian Luxury Theme */
+    --background: 0 0% 0%;        /* Absolute Obsidian Black */
+    --foreground: 44 33% 93%;     /* Bone / Soft Ivory */
+    
+    --card: 0 0% 2%;              /* Deep Black */
+    --card-foreground: 44 33% 93%;
+    
+    --popover: 0 0% 1%;
+    --popover-foreground: 44 33% 93%;
+    
+    --primary: 38 71% 51%;        /* Ember Gold */
+    --primary-foreground: 0 0% 2%;
+    
+    --secondary: 274 57% 27%;     /* Storm Violet */
+    --secondary-foreground: 44 33% 93%;
+    
+    --muted: 0 0% 5%;             /* Darker Charcoal */
+    --muted-foreground: 0 0% 50%; /* Dimmed Grey */
+    
+    --accent: 259 100% 62%;       /* Bright Storm Violet */
+    --accent-foreground: 44 33% 93%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 0 0% 8%;           /* Extremely Subtle Border */
+    --input: 0 0% 8%;
+    --ring: 38 71% 51%;           /* Gold Focus Ring */
+    
+    --radius: 0rem;               /* Sharp, luxurious edges */
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: 
+      radial-gradient(circle at 50% 0%, hsl(var(--secondary) / 0.05) 0%, transparent 50%),
+      radial-gradient(circle at 100% 100%, hsl(var(--primary) / 0.03) 0%, transparent 40%);
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-normal tracking-wide;
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar for clean luxury aesthetic */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px hsl(var(--primary) / 0.5);
+  }
+  
+  .glass-panel {
+    @apply bg-background/70 backdrop-blur-xl border border-white/5;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground));
+}
+
+::selection {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
